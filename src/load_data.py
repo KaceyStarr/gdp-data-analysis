@@ -1,6 +1,7 @@
 
 import pandas as pd
 
+# Load the GDP data from a CSV file
 def load_merged_data(path="data/processed/merged_data.csv"):
     try:
         df = pd.read_csv(path)
